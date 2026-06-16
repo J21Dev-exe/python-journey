@@ -14,7 +14,6 @@ My goal is to build a strong Python foundation before moving into Data Science, 
 | ----------------- | -------------- |
 | 01 - Introduction | ✅ Completed    |
 | 02 - Strings      | ✅ Completed    |
-| 03 - Conditional Statements      | 🚧 In Progress |
 
 > **New modules will be added as I complete them.**
 
