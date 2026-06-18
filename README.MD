@@ -14,6 +14,8 @@ My goal is to build a strong Python foundation before moving into Data Science, 
 | ----------------- | -------------- |
 | 01 - Introduction | ✅ Completed    |
 | 02 - Strings      | ✅ Completed    |
+| 03 - Conditional_Statements      | ✅ Completed    |
+| 04 - Match_Case_Statements      | ✅ Completed    |
 
 > **New modules will be added as I complete them.**
 
@@ -33,6 +35,18 @@ PYTHON-JOURNEY
 │   └── README.md
 │
 ├── 02-Strings
+│   ├── Concept_Files
+│   ├── Practice_Questions
+│   ├── Notes.md
+│   └── README.md
+│
+├── 03-Conditional_Statements
+│   ├── Concept_Files
+│   ├── Practice_Questions
+│   ├── Notes.md
+│   └── README.md
+│
+├── 04-Match_Case_Statements
 │   ├── Concept_Files
 │   ├── Practice_Questions
 │   ├── Notes.md
