@@ -1,0 +1,45 @@
+# Match Case Statements
+To implement switch-case like characteristics very similar to if-else functionality, we use a match case in python. If you coming from a C, C++, or Java like language, you must have heard of switch-case statements.
+
+A match statement will compare a given variable's value to different shapes, also referred to as the pattern. The man idea is to keep on comparing the variable with all the present patterns until it fits into one.
+
+The match case consists of three main enitities:
+- 1. The match keyword
+- 2. One or more case clauses
+- 3. Expression for each case
+
+The case clause consists of a pattern to be matched to the variable, a condition to be evaluated if the pattern matches, and a set of statements to be executed if the pattern matches.
+
+**Syntax:**
+```bash
+match variable_name:
+    case 'pattern1' : //statement1
+    case 'pattern2' : //statement2
+    .
+    .
+    .
+    case 'pattern n' : //statement n
+```
+**Output:**
+```bash
+Alexa, do not add Apples to the cart.
+```
+
+**Example:**
+```bash
+x = 4                               # the variable is x
+
+match x:
+    case 0:
+        print('x is Zero')
+    case 4 if x % 2 == 0:
+        print('x % 2 == 0 and case is 4')
+    case _ if x < 10:
+        print('x is < 10')
+    case _:
+        print('x')
+```
+**Output:**
+```bash
+x % 2 == 0 and case is 4
+```
